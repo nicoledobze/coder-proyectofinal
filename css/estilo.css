@@ -1,0 +1,190 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+/* RESET */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* LOGO */
+.logoPrincipal {
+    width: 90px;
+}
+
+/* TÍTULO */
+.tituloPrincipal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    border: 2px black solid;
+    background-color: #DAA89B;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* NAVBAR */
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border: 2px black solid;
+    background-color: #AE847E;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+    list-style-type: none;
+}
+
+/* CAROUSEL */
+.carousel {
+    margin: 15px;
+    padding: 15px;
+}
+
+
+
+/* NOSOTRAS */
+.textoNosotras {
+    margin: 15px ;
+    padding: 15px;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* MENÚ */
+.card-title {
+    color: #2C514C;
+    font-family: 'Roboto Mono', monospace;
+    font-weight:bolder
+}
+
+.card-text {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.card-img {
+    display: flex;
+    justify-content: space-around;
+    margin:15px;
+    padding:30px;
+}
+
+/* ENVÍOS */
+.tituloEnvios {
+    color: #2C514C;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic solid;
+    padding: 15px;
+}
+
+.textoEnvios {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px;
+}
+
+.ubicacion {
+    width: 40vw;
+    margin: 20px 20px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+/* CREÁ */
+.tituloCrea {
+    color: #2C514C;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic solid;
+    padding: 15px; 
+}
+
+.textoCrea {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px;
+}
+
+h3 {
+    color: #2C514C;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic solid;
+    padding: 15px; 
+}
+
+.form-check {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px;
+}
+
+.list-group {
+    margin: 20px;
+    padding: 20px;
+}
+
+.list-group-item {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* CONTACTO */
+
+#contacto {
+    margin-bottom: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+}
+
+.campo{
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.botonEnviar {
+    width: 200px;
+    margin: auto;
+}
+
+.instagram {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+/* BOTÓN WHATSAPP */
+.botonWhatsApp img {
+    width: 70px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #DAA89B ;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+}
