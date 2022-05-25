@@ -67,11 +67,8 @@
     font-family: 'Roboto Mono', monospace;
 }
 
-.card-img {
-    display: flex;
-    justify-content: space-around;
-    margin:15px;
-    padding:30px;
+.card-img-top:hover {
+    filter:grayscale(100%);
 }
 
 /* ENVÍOS */
